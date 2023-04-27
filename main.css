@@ -14,9 +14,9 @@
     --color-dark-100: #312d37;
     --color-dark-900: #000;
 
-    --color-purple-50: #7c3aed;
-    --color-purple-100: #a855f7;
-    --color-purple-200: #bf46ef;
+    --color-purple-50: #0d033a;
+    --color-purple-100: #08448a;
+    --color-purple-200: #0c45e2;
 
     --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
 }
@@ -24,7 +24,9 @@
 #container {
     height: 100vh;
     width: 100%;
-    background: var(--color-gradient);
+    background: url(./imagens/bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +59,7 @@
     position: absolute;
     content: '';
     width: 40%;
-    background-color: var(--color-purple-50);
+    background-color: rgb(55, 79, 185);
     height: 3px;
     bottom: 10px;
     border-radius: 5px;
